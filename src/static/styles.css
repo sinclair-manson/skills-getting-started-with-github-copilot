@@ -76,14 +76,30 @@ section h3 {
 
 .activity-card ul {
   margin-top: 10px;
-  padding-left: 20px;
-  list-style-type: disc;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .activity-card li {
   margin-bottom: 5px;
   font-size: 14px;
   color: #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+}
+
+.delete-btn:hover {
+  color: #b71c1c;
 }
 
 .form-group {
